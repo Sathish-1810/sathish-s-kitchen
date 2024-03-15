@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.7rem 7rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0.5);
+    background: rgb(86, 79, 79);
+
+}   
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #cbc829 !important;
+}
+#navbarSupportedContent
+{
+    color: rgb(99, 170, 49) !important;
+    border-bottom: 2px solid transparent;
+    font-weight: 600 !important;
+    font-size: 20px;
+   
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #cbc829 ;
+    padding:10px;
+}
+#navbarSupportedContent button {
+    background:#cbc829 ;
+    width: 90px;
+    border-radius: 12px;
+    color: aqua;
+    font-weight: 600}
+.image{
+    height: 50px;
+    width: 160px;
+    
+}
+
+
+
+
+section{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Homestarts*/
+#Home {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0.4)), url(https://static.vecteezy.com/system/resources/previews/032/057/283/non_2x/traditional-turkish-and-greek-dinner-appetizer-table-with-meat-vegetables-and-fruits-delicious-food-for-a-ramadan-feast-in-the-table-top-view-ai-generated-free-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 100px;
+    color:rgb(0, 186, 0);
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+                }
+#Home p {
+    font-size: 18px;
+    color:#ffff;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: monospace;
+}
+#Home .input-group{
+    width:40%;
+    height: 44px;
+    border: none;
+    border-radius: 7px !important; }
+  
+.signin{
+    background: #cbc829  !important;
+    color:white !important;
+    font-weight: 500 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    box-shadow: 2px 4px 5px rgba(0, 0 , 0,3);
+}
+              
+
+/*Homeends*/
+/*aboutstarts*/
+
+
+/* styles.css */
+#about {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0.4)), url(https://img.freepik.com/free-photo/autumn-plant-displays-fresh-multi-colored-leaves-outdoors-generative-ai_188544-8611.jpg?t=st=1710300958~exp=1710304558~hmac=0890c502294568c288f4983c52d1f239bf5af4efa6e171a443c687d0c642f581&w=740);
+
+}
+#about h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color:white;
+    
+}
+#about p{
+    color:white;
+    letter-spacing: 0;
+    font-size: 17px;
+
+}
+img{
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    border-width: 2px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0 , 0,8) !important;  
+}
+
+/*products*/
+#products {
+   background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0.4)), url("https://img.freepik.com/free-photo/raindrops-window-with-blue-sky_53876-142999.jpg?t=st=1710326825~exp=1710330425~hmac=4552bb90d16eb0ce62fbba855705d59d419faa6d06c3d9c112f7ce0b863ccc46&w=826");
+background-size: cover;
+background-position: center;
+}
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(169, 216, 112);
+  
+}
+#product img{
+   border: none;
+
+}
+#products p {
+    font-weight: 100;
+    color:aqua
+}
+.card {
+    width:240px;
+    height:430px;
+    background: #524f4f !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0 , 0,8) !important;      
+    border-radius: 20px;
+    border: none !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition:.2s;
+    margin: 15px;   
+    margin-left: 10px; 
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.card img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* This property ensures the image covers the entire space */
+    border-radius: 10px;
+    border: 2px;
+}
+
+.card h5{
+    color:rgb(182, 187, 28);
+    font-weight: 600   ;
+}
+.card:hover{
+    box-shadow: inset 15px 20px 20px rgba(0, 0 , 0,8) !important; 
+    transition:.2s;    
+}
+
+/*contact starts*/
+#contact{
+    background-image: url("https://img.freepik.com/free-photo/cosmetics-product-advertising-stand-exhibition-wooden-podium-green-background-with-leaves-sha_1258-167609.jpg?t=st=1710417489~exp=1710421089~hmac=3c0987a990ee8d66495ebd76fc840236f39b94391f58210782ff8207144972a3&w=826");
+background-size: cover;
+background-position: center;
+}
+#contact img{
+ height:100%;
+ border: none;
+ box-shadow: 15px 20px 20px rgba(0, 0 , 0,8) !important;  
+
+}
+.box{
+    width:80% !important;
+   
+    margin-top: 10px;
+ 
+    box: radius 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border-style: solid white;
+    
+   
+}
+#contact input{
+    margin:8px;
+    background: transparent;
+    box-shadow: 15px 20px 20px rgba(0, 0 , 0,4) !important;   
+    color:#ffffff  
+}
+
+
+#contact textarea{
+    margin:8px;
+    background: transparent;
+    box-shadow: 15px 20px 20px rgba(0, 0 , 0,4) !important;  
+    margin-right: 20px;
+    color:#ffffff
+
+
+}
+#contact h1{
+    color:rgb(219, 204, 204);
+    letter-spacing: 2px;
+    font-weight: 650;
+    text-shadow: #98ac21 !important; 
+}
+
+
+
+/*contact ends here*/
+footer{
+    width:100%;
+    height:30px;
+    background:rgba(0, 0, 0, 0.8) ;
+    text-align: center;
+    color:#ffffff;
+    padding:4px;
+}
